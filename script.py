@@ -14,3 +14,5 @@ for i in data['transcoderConfigurations']:
 #print(json.dumps(data['transcoderConfigurations']['fileTranscoder'],indent=4, sort_keys=True))
 print(" ")
 print(json.dumps(data['transcoderConfigurations'],indent=4, sort_keys=True)) 
+
+# test para ver si se puede añadir y comitear junto
