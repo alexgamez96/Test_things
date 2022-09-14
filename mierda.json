@@ -1,0 +1,29 @@
+{
+    "maxConcurrentTasks": 3,
+    "fileTranscoderTimeoutMs": null,
+    "fileTranscoderEndpoint": "https://fpev2stagefa.azurewebsites.net/file-transcode-job-gql-staging?code=aGBpCJDI/OtTBBErCfBaBaM0sUFaaTNbBaVZ0fDawDtsm/Djs48Wbg==",
+    "transcoderConfigurations": [
+      {
+        "sourceParameters": null,
+        "fileTranscoder": "HARMONIC_CLOUD"
+      },
+      {
+        "sourceParameters": {
+          "fileExtension": "ts"
+        },
+        "fileTranscoder": "INTERNAL"
+      },
+      {
+        "sourceParameters": {
+          "fileExtension": "mp4"
+        },
+        "fileTranscoder": "INTERNAL"
+      },
+      {
+        "sourceParameters": {
+          "fileExtension": "mxf"
+        },
+        "fileTranscoder": "INTERNAL"
+      }
+    ]
+  }

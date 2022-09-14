@@ -14,3 +14,6 @@ for i in data['transcoderConfigurations']:
 #print(json.dumps(data['transcoderConfigurations']['fileTranscoder'],indent=4, sort_keys=True))
 print(" ")
 print(json.dumps(data['transcoderConfigurations'],indent=4, sort_keys=True)) 
+
+# Pili la Gorda
+# Maite la de Piles
