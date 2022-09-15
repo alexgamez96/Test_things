@@ -4,9 +4,12 @@ with open('mierda.json', 'r') as file:
 #Esto es para que lo imprima bonito
 #print(type(data['transcoderConfigurations']['fileTranscoder']))
 #data=dict(data)
-print(type(data))
-print(type(data['transcoderConfigurations']))
+print(type(data)) # esto es un diccionario
+print(type(data['transcoderConfigurations'])) #esto es una lista
 for i in data['transcoderConfigurations']:
+    print(i)
+    if i['fileTranscoder']=="INTERNAL":
+        data['fileTranscoder']="HARMONIC_CLOUD"
     print(f"{i['fileTranscoder']}")
 #    print(type(i['sourceParameters']))
 #    for x in {i['sourceParameters']}:
