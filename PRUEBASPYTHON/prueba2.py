@@ -6,13 +6,12 @@ tortuga=Turtle()
 
 class Coche:
     ruedas="si"
-    def __init__(self,seats,color,rueda):
+    def __init__(self,seats,color):
         print("nuevo coche creado")
         self.seats=seats
         self.color=color
         self.followers=0
-        self.rueda=rueda
 
-coche=Coche(5,"rojo",2)
+coche=Coche(5,"rojo")
 
-print(coche.color,coche.seats, coche.ruedas, coche.followers, coche.rueda)
+print(coche.color,coche.seats, coche.ruedas, coche.followers)
