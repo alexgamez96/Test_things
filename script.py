@@ -4,11 +4,6 @@ with open('destinations.json', 'r') as file:
 #Esto es para que lo imprima bonito
 #print(type(data['transcoderConfigurations']['fileTranscoder']))
 #data=dict(data)
-#print(type(data))
-#print(type(data['transcoderConfigurations']))
-#print(data['transcoderConfigurations'][0]["fileTranscoder"]) funciona
-#for i in data['transcoderConfigurations']:
-#    print(f"{i['fileTranscoder']}")
 #    print(type(i['sourceParameters']))
 #    for x in {i['sourceParameters']}:
 #        print(f"{x['fileExtension']}")
